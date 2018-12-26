@@ -1,0 +1,12 @@
+Definition: "In mathematics, a normal number is a real number whose infinite sequence of digits in every positive integer base b[1]
+is distributed uniformly in the sense that each of the b digit values has the same natural density 1/b"-Wikipedia
+
+Theorem: Every Normal number contains all possible string of digits.
+proof:
+
+Conjecture: Pi is a normal number
+
+Interestingly enough, this program could be used to disprove this conjecture but not to prove it. Finding a counterexample to a string 
+of digits that is not contained in pi would count as a proof. 
+This program is not capable of checking if all possible string are contained in the normal number n.
+
