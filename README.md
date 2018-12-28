@@ -1,4 +1,12 @@
 # Containment-of-the-Universe-in-Pi
+
+This simple program, with the right hardware, could locate the unique representation every object in the universe in the digits of pi
+
+
+
+
+THE MATH:
+
 Every object, no matter how complicated, can be converted into a string of binary digits.
 
 If you include spacial coordinates and a time coordinate to this, you can essentially fit every object at every stage 
