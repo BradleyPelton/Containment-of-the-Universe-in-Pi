@@ -1,0 +1,25 @@
+
+
+First we need a to convert our object into a base-10 string of numbers. 
+
+We can start out by proving that every picture of defined resolution is containted in the digits of pi and generalize from there.
+
+Given a picture of resolution, converting it into base-10 is the hard part.
+
+pic_str= '234895720398475029837450892730489572345.....'
+#pic_str is the conversion of the picture into base-10
+
+#lets open a file that contains a billion digits of pi or so 
+
+filename= 'billion_digits_of_pi'
+
+pie=''
+while open(filename) as file_objecti:
+  lines = file_object.read.lines()
+
+for line in lines:
+  pie+= line.strip()
+  
+pie.find(pic_str)
+
+And we have it. The line above would output the occurence of the base-10 representation of the picture in pi
